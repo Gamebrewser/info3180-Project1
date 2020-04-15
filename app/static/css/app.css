@@ -1,0 +1,127 @@
+body {
+    padding-top: 5rem;
+}
+
+.bold-words {
+    font-weight: bold;
+}
+
+.profile_pic{
+    width:90px;
+    height:90px;
+    border-radius: 40%;
+}
+
+.blk{
+    /*display: block;*/
+    font-weight: bold;
+}
+
+
+.pro-data{
+    max-width: 30%;
+}
+
+.view-btn{
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    border-radius: 7px;
+    color: white;
+}
+
+.profile{
+    margin-left: 15px;
+    width: 45%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 1%;
+    box-shadow: 0px 2px 8px grey;
+}
+
+.profiles-container{
+    width: 90%;
+}
+
+.view-profile a{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.forms-con{
+    margin: 0 auto;
+    padding: 5px;
+    width: 40%;
+    background-color: whitesmoke;
+}
+
+.border{
+    border-radius: 3px;
+    border-top: 3px white solid;
+}
+.title{
+    margin: 0 auto;
+    width: 45%;
+    margin-bottom: 1%;
+    
+}
+
+.hr-st{
+    margin-top: 5px;
+    border-top: 2px Aqua solid;
+    border-bottom: 2px Aqua solid;
+    border-radius: 8%;
+    padding-left: 20px;
+}
+
+
+.pro_img{
+    width: 100px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 5px
+}
+
+.card{
+    width: 25rem;
+}
+
+.center{
+    margin: 0 auto;
+}
+
+.btn{
+    width:47%;
+}
+
+.inline{
+    display: inline;
+}
+
+.btn-container{
+    text-align: center;
+}
+
+.top-info{
+    padding: 30px;
+}
+
+
+
+
+
+
+.block{
+    display: block;
+}
+
+.contain{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.field{
+    border-radius: 5px;
+}

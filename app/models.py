@@ -1,4 +1,5 @@
 #-----Student of The University of The West Indies, Mona Campus - ID number:620099854-----
+
 from . import db
 
 class User(db.Model):
