@@ -37,7 +37,7 @@ def profile():
                 photo = newProfileForm.photo.data
                 photo_name = secure_filename(photo.filename)
 
-                user = User(firstname, lastname, gender, email, location, bio, created_on, photo_name)
+                user = User(firstname=firstname, lastname=lastname, gender=gender, email=email, location=location, bio=bio, created_on=created_on, photo=photo_name)
                 
                 db.session.add(user)
                 db.session.commit()
@@ -64,8 +64,7 @@ def profiles():
 
     for user in users:
         profiles.append({"profile_pic": user.photo, "f_name":user.firstname, "l_name": user.lastname, "gender": user.gender, "lcoation":user.location, "id":user.id})
-
-    return render_template("view_all_profiles.html", profile = profiles)
+    return render_template("view_all_profiles.html", profiles = profiles)
 
 
 @app.route("/profile/<userid>")
